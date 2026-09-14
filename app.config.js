@@ -33,6 +33,9 @@ module.exports = {
     plugins: ['expo-router', 'expo-video'],
     experiments: { typedRoutes: true },
     extra: {
+      eas: {
+        projectId: "f6e5bc75-ede4-4397-a83f-24d772a12eb2"
+      },
       domain: "saddlebronc.pro",
       eventType: "saddlebronc",
     },
